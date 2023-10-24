@@ -37,3 +37,19 @@ elif ask3 == 0:
 else:
     print(ask3, "is Odd")
 
+# Exercise 04
+print("Welcome! What would you like to do?")
+print("Convert from F to C --> [1]")
+print("Convert from C to F --> [2]")
+ask4 = int(input("Enter 1 or 2: "))
+
+print("\b")
+
+if ask4 == 1:
+    F = int(input("Enter Fahrenheit: "))
+    C = (F - 32) / 1.8
+    print("Temperature in Degree Celsius is:", round(C, 2))
+else:
+    C = int(input("Enter Celsius: "))
+    F = (C * 1.8) + 32
+    print("Temperature is Fahrenheit is:", round(F, 2))
