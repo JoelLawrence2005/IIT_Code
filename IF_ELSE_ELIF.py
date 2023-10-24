@@ -49,7 +49,9 @@ if ask == 1:
     F = int(input("Enter Fahrenheit: "))
     C = (F - 32) / 1.8
     print("Temperature in Degree Celsius is:", round(C, 2))
-else:
+elif ask == 2:
     C = int(input("Enter Celsius: "))
     F = (C * 1.8) + 32
     print("Temperature is Fahrenheit is:", round(F, 2))
+else:
+    print("Incorrect number")
