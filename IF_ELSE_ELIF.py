@@ -76,3 +76,22 @@ elif operator == "+":
     print(num1 + num2)
 else:
     print("Not an Option!")
+
+# Exercise 06
+cost = float(input("Enter the cost of the dinner: "))
+print("Totally Satisfied [1]")
+print("Satisfied [2]")
+print("Dissatisfied [3]")
+ask = int(input("Enter your satisfaction rate [1][2][3]: "))
+
+print("\b")
+
+if ask == 1:
+    print("Bill:", cost * 0.2)
+elif ask == 2:
+    print("Bill:", cost * 0.15)
+elif ask == 3:
+    print("Bill:", cost * 0.1)
+else:
+    print("Not a valid option!")
+
