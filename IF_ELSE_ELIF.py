@@ -9,7 +9,7 @@ elif ask == "*":
 elif ask == "/":
     print("Division")
 else:
-    pass
+    print("Incorrect Operator")
 
 # 24/20/23 TUT
 
