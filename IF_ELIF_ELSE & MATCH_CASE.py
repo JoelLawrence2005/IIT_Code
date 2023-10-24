@@ -2,12 +2,6 @@
 
 ask = input("Enter: ")
 
-# match (ask):                         ALT to if_else
-#    case "+" : print("Addition")
-#    case "*" : print("Multiplication")
-#    case "/" : print("Division")
-#    case __ : print(None)
-
 if ask == "+":
     print("Addition")
 elif ask == "*":
@@ -21,8 +15,8 @@ else:
 # 24/20/23 TUT
 
 # Exercise 01
-
 ask2 = int(input("Enter age: "))
+
 if ask2 >= 18:
     print("Can Vote")
 
