@@ -14,9 +14,9 @@ else:
 # 24/20/23 TUT
 
 # Exercise 01
-ask2 = int(input("Enter age: "))
+ask = int(input("Enter age: "))
 
-if ask2 >= 18:
+if ask >= 18:
     print("Can Vote")
 
 # Exercise 02
@@ -28,24 +28,24 @@ else:
     print("Pass")
 
 # Exercise 03
-ask3 = int(input("Enter a number: "))
+ask = int(input("Enter a number: "))
 
-if ask3 % 2 == 0:
+if ask % 2 == 0:
     print(ask3, "is Even")
-elif ask3 == 0:
-    print(ask3, "is Zero")
+elif ask == 0:
+    print(ask, "is Zero")
 else:
-    print(ask3, "is Odd")
+    print(ask, "is Odd")
 
 # Exercise 04
 print("Welcome! What would you like to do?")
 print("Convert from F to C --> [1]")
 print("Convert from C to F --> [2]")
-ask4 = int(input("Enter 1 or 2: "))
+ask = int(input("Enter 1 or 2: "))
 
 print("\b")
 
-if ask4 == 1:
+if ask == 1:
     F = int(input("Enter Fahrenheit: "))
     C = (F - 32) / 1.8
     print("Temperature in Degree Celsius is:", round(C, 2))
