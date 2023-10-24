@@ -48,10 +48,10 @@ print("\b")
 if ask == 1:
     f = int(input("Enter Fahrenheit: "))
     c = (f - 32) / 1.8
-    print("Temperature in Degree Celsius is:", round(C, 2))
+    print("Temperature in Degree Celsius is:", round(c, 2))
 elif ask == 2:
     c = int(input("Enter Celsius: "))
     f = (c * 1.8) + 32
-    print("Temperature is Fahrenheit is:", round(F, 2))
+    print("Temperature is Fahrenheit is:", round(f, 2))
 else:
     print("Incorrect number")
