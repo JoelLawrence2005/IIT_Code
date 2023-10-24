@@ -55,3 +55,24 @@ elif ask == 2:
     print("Temperature is Fahrenheit is:", round(f, 2))
 else:
     print("Incorrect number")
+
+# Exercise 05
+num1 = int(input("Enter a number to compute: "))
+num2 = int(input("Enter another number to compute: "))
+operator = input("Enter which operator [/, +, *, -]: ")
+
+print("\b")
+
+if operator == "/":
+    try:
+        print(round(num1 / num2, 2))
+    except ZeroDivisionError:
+        print("Error!")
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "+":
+    print(num1 + num2)
+else:
+    print("Not an Option!")
