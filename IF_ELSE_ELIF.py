@@ -1,15 +1,15 @@
 # Write a python program to accept and operator from the user and print the message based on the table
 
-ask = input("Enter: ")
+ask = input("Enter: ") # Gets an input
 
-if ask == "+":
+if ask == "+":   # Check if input is +, /, or *
     print("Addition")
 elif ask == "*":
     print("Multiplication")
 elif ask == "/":
     print("Division")
 else:
-    print("Incorrect Operator")
+    print("Incorrect Operator")   # if input not equal to the above one
 
 # 24/20/23 TUT
 
