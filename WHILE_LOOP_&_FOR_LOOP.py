@@ -34,5 +34,5 @@ while True:
 count = 0
 while True:
   if count < 10:
-    continue
+    continue    # When the interpreter reaches this line, it will stop executing and move onto the next repetition
   print(count)
